@@ -1,0 +1,142 @@
+body {
+     background: url(https://www.agernic.com/uploads/css-background-image-size-fit-full-screen.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.lead {
+  margin: 55px;
+  text-align: center;
+}
+
+
+img {
+  width: 100%;
+  height: 50%;
+}
+
+
+hr{
+  border-color: white;
+}
+
+.text {
+    margin: 69px 0px;
+}
+
+.about {
+    margin: -2% 5% 0% 39%;
+}
+/* SVG Settings */
+
+.finger {
+    fill: grey;
+    position:relative;
+    animation: MoveUpDown 1s linear infinite;
+    margin: -28px 1em;
+    float: left;
+    transform: rotate(180deg);
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 22px;
+  }
+ }
+
+.LinkedIn {
+    margin: 141px 2px;
+  }
+
+.Link {
+  fill:#fff;
+}
+
+.FacebookLink {
+    margin: -118px 1px;
+}
+
+.facebook {
+  fill: #548;
+}
+/* SVG Settings */
+
+img.wrap {
+    float: left;
+    border-radius: 68%;
+    margin: -20px 1% -10%;
+    width: 200px;
+    height: 250px;
+}
+
+.btn {
+      margin: 29% 36%;
+}
+
+.display-1 {
+    margin: 7% -23%;
+}
+
+.mx-auto {
+      font-family: "Times New Roman", Times, serif;
+}
+
+.name {
+  margin: 25% !important;
+}
+
+.fade-in {
+  animation: fadeIn  5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}

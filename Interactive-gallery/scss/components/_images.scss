@@ -1,0 +1,34 @@
+.container {
+  margin: 50px 35px;
+  height: 30px;
+
+  @include tablet{
+ margin: 0px 3.8em;
+}
+@include desktop{
+  margin: 6px 15em;
+}
+
+  @include LGdesktop{
+   margin: 25px 25em;
+ }
+}
+
+.container img{
+@include LGdesktop{
+  margin: 25px;
+ }
+}
+
+ img{
+@include tablet{
+  margin: 5px;
+ }
+}
+
+
+img{
+@include desktop{
+ margin: 20px;
+ }
+}

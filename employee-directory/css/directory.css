@@ -1,0 +1,231 @@
+@media (min-width: 320px){
+
+* {
+  box-sizing: border-box;
+}
+
+ .directory {
+  font-weight: bold;
+  margin: 17px 49px;
+}
+
+
+#employees{
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 30px;
+  margin: 0px 32px;
+}
+
+
+#employees> div {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 7px 0;
+  width: 410px;
+  margin: 10px 10px 20px;
+}
+
+img {
+
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: -4px 21px -83px;
+}
+
+p, h2 {
+  margin: -6px 114px 15px 158px;
+}
+
+.name {
+  margin: -6px 7% 15px 158px;
+}
+
+.city {
+  margin: 0px 16% 0px 39%;
+}
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-info-container {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 46%;
+}
+
+
+/* The Close Button */
+.close {
+  float: right;
+  margin: -16em 25px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*The modal img & text*/
+.modal-img {
+  margin: 25px 33%;
+}
+
+
+.modal-name-cap {
+  margin: 18px 11% 25px 33%;
+}
+
+
+.modal-email {
+   margin: 5% 25%;
+}
+
+.modal-city-cap{
+   margin: 26px 21% 0px 44%;
+}
+
+
+.modal-phone {
+   margin: 25px 0px 18px 36%;
+}
+.modal-location-cap{
+  margin: 25px -8% 0px 13%;
+}
+
+.modal-birthday{
+  margin: 25px 0px 0px 33%;
+ }
+}
+
+
+
+@media (min-width: 1024px){
+
+* {
+  box-sizing: border-box;
+}
+
+ .directory {
+  font-weight: bold;
+  margin: 17px 49px;
+}
+
+
+#employees{
+  display: grid;
+  grid-template-columns: repeat(3, 0fr);
+  grid-gap: 30px;
+  margin: 0px 32px;
+}
+
+
+#employees> div {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 7px 0;
+  width: 410px;
+  margin: 10px 10px 20px;
+}
+
+img {
+
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: -4px 21px -83px;
+}
+
+p, h2 {
+  margin: -6px 114px 15px 158px;
+}
+
+.name {
+  margin: -6px 7% 15px 158px;
+}
+
+.city {
+  margin: 0px 16% 0px 39%;
+}
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-info-container {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+}
+
+
+/* The Close Button */
+.close {
+  float: right;
+  margin: -16em 25px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*The modal img & text*/
+.modal-img {
+  margin: 25px 33%;
+}
+
+
+.modal-name-cap {
+  margin: 18px 11% 25px 33%;
+}
+
+
+.modal-email {
+   margin: 5% 25%;
+}
+
+.modal-city-cap{
+   margin: 26px 21% 0px 44%;
+}
+
+
+.modal-phone {
+   margin: 25px 0px 18px 36%;
+}
+.modal-location-cap{
+  margin: 25px -8% 0px 13%;
+}
+
+.modal-birthday{
+  margin: 25px 0px 0px 33%;
+ }
+}
