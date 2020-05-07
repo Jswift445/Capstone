@@ -3,5 +3,5 @@
   let passWord = prompt("Please enter your password", "Okfine");
   if (userName && passWord != null){
     document.getElementById("open").innerHTML =
-    location.href = "projects.html";
+    window.open('projects.html', '_self');
   }
